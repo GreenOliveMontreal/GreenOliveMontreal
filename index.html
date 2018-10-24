@@ -54,8 +54,6 @@
   
   
   
-    <link rel="stylesheet" href="/css/vdonate.css">
-  
 
 </head>
 </html>
@@ -105,7 +103,7 @@
                   
                     <div class="item">
                   
-                    <img id="carousel-img1" src="/css/images/sample.jpg">
+                    <img id="carousel-img1" src="/css/images/retireMeeting_A.jpg">
                   </div>
 
                   <!-- 自适应大图 -->
@@ -126,7 +124,7 @@
                   
                     <div class="item">
                   
-                    <img id="carousel-img2" src="https://source.unsplash.com/collection/954550/1920x1080">
+                    <img id="carousel-img2" src="https://jungmyeongseok.files.wordpress.com/2015/10/0000014174_2118d8a1b7004ed5baf5347a4f99f502n.jpg">
                   </div>
 
                   <!-- 自适应大图 -->
@@ -140,6 +138,27 @@
                         } else {
                           imageTag2.style.height = document.body.clientHeight + "px";
                           imageTag2.style.marginLeft = -(document.body.clientHeight * img2.width / img2.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+                  
+                    <div class="item">
+                  
+                    <img id="carousel-img3" src="https://source.unsplash.com/collection/954550/1920x1080">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img3 = new Image();
+                      var imageTag3 = document.getElementById("carousel-img3");
+                      img3.src = imageTag3.src;
+                      img3.onload=function(){
+                        if (img3.width / img3.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag3.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag3.style.height = document.body.clientHeight + "px";
+                          imageTag3.style.marginLeft = -(document.body.clientHeight * img3.width / img3.height - document.body.clientWidth) / 2 + "px";
                         }
                       };
                   </script>
@@ -234,15 +253,15 @@
   <div class="intro-navigate">
       <p class="navigater-list">
         
-          <a id="beautifont" class="main-nav-link" href="/">Home</a>
+          <a id="beautifont" class="main-nav-link" href="/">首页</a>
         
-          <a id="beautifont" class="main-nav-link" href="/archives">Archives</a>
+          <a id="beautifont" class="main-nav-link" href="/archives">活动</a>
         
-          <a id="beautifont" class="main-nav-link" href="/categories">Categories</a>
+          <a id="beautifont" class="main-nav-link" href="/archives">分类</a>
         
-          <a id="beautifont" class="main-nav-link" href="/tags">Tags</a>
+          <a id="beautifont" class="main-nav-link" href="/archives">标签</a>
         
-          <a id="beautifont" class="main-nav-link" href="/about">About</a>
+          <a id="beautifont" class="main-nav-link" href="/archives">关于我们</a>
         
       </p>
   </div>
@@ -265,7 +284,7 @@
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2018/10/24/Party/">退休会</a>
+      <a class="article-title" href="/2018/10/24/Party/">退修会</a>
     </h1>
   
 
@@ -283,7 +302,8 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p class="article-excerpt-content">
-          helllo how are you? iam fine
+          
+在这阳光明媚的日子里我们迎来的退修会好开心啊，好开心
 
         </p>
         <p class="article-more-link">
@@ -306,7 +326,7 @@
 
 
   
-    <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
+    <article id="post-First" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div id="articleInner" class="article-inner">
     
     
@@ -314,7 +334,7 @@
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2018/10/24/hello-world/">Hello World</a>
+      <a class="article-title" href="/2018/10/24/First/">这只是一个测试页面</a>
     </h1>
   
 
@@ -322,7 +342,7 @@
     
     <div class="article-meta">
       
-	<a href="/2018/10/24/hello-world/" class="article-date">
+	<a href="/2018/10/24/First/" class="article-date">
 	  <time datetime="2018-10-24T20:40:33.621Z" itemprop="datePublished">2018-10-24</time>
 	</a>
 
@@ -336,7 +356,7 @@
 Quick StartCreate a new post1$ hexo new "My New...
         </p>
         <p class="article-more-link">
-          <a href="/2018/10/24/hello-world/#more">Read More</a>
+          <a href="/2018/10/24/First/#more">Read More</a>
         </p>
       
     </div>
@@ -401,15 +421,15 @@ Quick StartCreate a new post1$ hexo new "My New...
     </div>
     <!-- <nav id="mobile-nav">
   
-    <a href="/" class="mobile-nav-link">Home</a>
+    <a href="/" class="mobile-nav-link">首页</a>
   
-    <a href="/archives" class="mobile-nav-link">Archives</a>
+    <a href="/archives" class="mobile-nav-link">活动</a>
   
-    <a href="/categories" class="mobile-nav-link">Categories</a>
+    <a href="/archives" class="mobile-nav-link">分类</a>
   
-    <a href="/tags" class="mobile-nav-link">Tags</a>
+    <a href="/archives" class="mobile-nav-link">标签</a>
   
-    <a href="/about" class="mobile-nav-link">About</a>
+    <a href="/archives" class="mobile-nav-link">关于我们</a>
   
 </nav> -->
     
